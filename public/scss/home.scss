@@ -1,0 +1,52 @@
+#app{
+    width: 100vw;
+    height: 1000px;
+    background-color: peru;
+
+    .home-container{
+        width: 60%;
+        height: min-content;
+        margin: 0 auto;
+
+        .h2{
+            width: 100%;
+            height: min-content;
+
+            h2{
+                margin: 0 auto;
+                padding-bottom: 10px;
+                width: min-content;
+            }
+
+            h3{
+                margin: 0 auto;
+                width: fit-content
+            }
+        }
+
+        .login{
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .button{
+            margin-top: 40px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+
+            .load{
+                width: fit-content;
+            }
+        }
+        
+    }
+    
+
+
+
+}

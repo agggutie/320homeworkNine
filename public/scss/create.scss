@@ -1,0 +1,35 @@
+#app{
+    margin-top: 20px;
+    width: 100%;
+    
+    .log-container{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+        width: 80%;
+        height: 500px;
+
+    .create-account{
+        width: 50vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: peachpuff;
+    }
+
+    .login{
+        width: 50vw;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: papayawhip;
+
+    
+           
+        }
+    }
+}
