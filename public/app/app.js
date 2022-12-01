@@ -315,6 +315,7 @@ function signIn(){
         try {
             let app = firebase.app();
             initFirebase();
+            signOut();
             initListeners();
         } catch (error) {
             console.log("error", error);
